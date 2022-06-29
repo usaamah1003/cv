@@ -1,0 +1,36 @@
+#container{
+    background:rgb(18, 18, 71);
+    border: 2px ridge black ;
+    border-radius: 5px;
+    color: blanchedalmond;
+}
+ 
+
+
+#fixed-position{
+    position: fixed;
+    background: #590d85a6;
+    color: rgb(224, 226, 220);
+}
+
+#relative-1{
+    background: teal;
+    border: rgb(18, 18, 71) 1px solid;
+    height: 50px;
+}
+
+#relative-2{
+    position: relative;
+    left: 20px;
+    top: 10px;
+    background: yellowgreen;
+    border: 5 px ridge blue;
+}
+
+img{
+    height: 200px;
+    width: 200px;
+    float: right;
+    border-radius: 50px;
+    border: ridge 20px rgb(75, 57, 179);
+}

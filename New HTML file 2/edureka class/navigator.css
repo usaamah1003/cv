@@ -1,0 +1,32 @@
+*{
+    margin: 0;;
+    padding:0;
+    
+ }
+ .Logo{
+    padding: 20px 0 0 10px;
+    font-size: 60px;
+    color: slateblue;
+ }
+ .Logo span{
+    color:rgb(125, 38, 160);
+ }
+ .Navlist{
+    list-style-type:none ;
+    margin:10px ;
+    display: flex;
+ }
+ .Navlist li a{
+    padding-right: 30px;
+    text-decoration: rgb(51, 150, 153);
+    position: relative;
+    left: 1200px;
+    font-size: 20px;
+    top: -80px;
+    color: rgb(141, 44, 165);
+ }
+ .navigation{
+    background-color: rgb(225, 231, 247);
+    margin-top:none ;
+ }
+ 

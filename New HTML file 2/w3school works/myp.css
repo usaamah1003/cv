@@ -1,0 +1,36 @@
+body{
+    background-color: lightblue;
+    background-image: url("life.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: blue;
+}
+ hr{
+    border-color: rgb(29, 27, 27);
+    border-style: none;
+    border-top-style: dotted ;
+    width: 5%;
+    border-width: 5px;
+ }
+ h3{
+    color: rgb(121, 214, 218) ;
+ }
+ a:hover{
+    color: red;
+ }
+ a{
+    color: rgb(180, 142, 142);
+ }
+
+ .bacon{
+    background-color: rgb(160, 101, 12);
+ }
+ .broccoli{
+    background-color: rgb(31, 31, 7);
+ }
+ #heading{
+    color: green;
+ }
+ .circular{
+    border-radius: 100%;
+ }

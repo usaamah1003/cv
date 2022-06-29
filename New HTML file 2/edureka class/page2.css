@@ -1,0 +1,54 @@
+#l{
+    background: black;
+    color: white;
+
+    border: 3px ridge rgb(223, 63, 63) ;
+    padding: 13px 13px 13px 20px;
+    margin: 10px 20px ;
+}
+
+#normal{
+    font-style: normal;
+}
+
+#obligue
+}
+
+#italic{
+    font-style: oblique;
+}
+#smallcap{
+    font-variant: small-caps;
+}
+#wnormal{
+    font-weight:normal;
+}
+#wbold{
+    font-weight: bold;
+}
+#wbloder{
+    font-weight: bolder;
+}
+#wlight{
+    font-weight: lighter;
+}
+
+#xxlarger{
+   font-size: xx-large;
+}
+
+#large{
+    font-size: large;
+ }
+ 
+ #small{
+     font-size: small;
+ }
+
+ 
+ #xxsmall{
+    font-size: xx-small;
+}
+#medium{
+    font-size: medium;
+}

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My firstform</title>
+</head>
+<body>
+    <h1> Registration Form</h1>
+      <form action="method">
+        <div>
+              <label for="First name"><b>Name:</b></label>
+              <input type="text" name="first-name" placeholder="Barry" required>
+              <label for="last name"><b>last Name:<B></label>
+              <input type="text" name="last-name" placeholder="Argent" required>
+
+        </div>
+        <p></p>
+        <div>
+            <label for="gender_male"><b>Male</b></label>
+            <input type="radio" name="Gender-choice" value="choice-1">
+
+            <label for="gender_male"><B>Female</B></label>
+            <input type="radio" name="Gender-choice" value="choice-2">
+
+            <label for="gender_male"><b>others</b></label>
+            <input type="radio" name="Gender-choice" value="choice-3">
+        </div>
+        <p></p>
+          <div>
+            <label for="Email"><b>Email</b></label>
+            <input type="text" name="email" placeholder="xyz@gmail.com">
+          </div>
+          <p></p>
+          <div>
+            <label for="Password"><b>password</b></label>
+            <input type="password" name="Password">
+          </div>
+          <p></p>
+          <div>
+            <label for="Month">Birthday</label>
+            <select name="Month">
+              <option value="0"selected disabled> Month</option>
+              <option value="January">January</option>
+              <option value="Febuary">Febuary</option>
+              <option value="March">March</option>
+              <option value="April">April</option>
+              <option value="June">June</option>
+              <option value="July">July</option>
+              <option value="Agust">Agust</option>
+              <option value="September">september</option>
+              <option value="Octoer">october</option>
+              <option value="Novermber">November</option>
+              <option value="december">Decmber</option>
+            </select>  
+        </div>
+        <p></p>
+        <div>
+          <label for="Agree">I agree to all the conditions of the forms</label>
+          <input type="checkbox" name="Agree"><p></p> <br>
+         <button type="submit">submit</button>
+        </div>
+      </form>  
+</body>
+</html>
+

@@ -1,0 +1,27 @@
+ul{
+    background-color: #f7f7a7 ;
+    width: 360px;
+    margin: 100px;
+}
+li:nth-child(2n){
+    background-color: wheat ;
+}
+p::first-line{
+    text-transform: uppercase;
+    font-size: 50px;
+}
+p{
+    color:cornsilk;
+    background:brown ;
+    cursor: grab;
+    margin: auto;
+    width: 400px;
+    box-shadow: 0 0 17px cornflowerblue    ;
+    text-decoration:overline black 5px;
+}
+ body{
+     background-color: coral;
+     border: 5 px ridge blue;
+ }
+
+ 

@@ -1,0 +1,36 @@
+div{
+    background: blueviolet ;
+    color: whitesmoke;
+}
+
+#Qoute{
+    font-family: "verdana", "gill sans";
+    color: turquoise;
+}
+
+.movie{
+    color: yellowgreen;
+    background-color: white;
+}
+span#Author{
+    text-transform: uppercase;
+
+}
+ #Skills ol li {
+    color: turquoise;
+}
+*\#Skills ol li {
+    color:rgba(red, green, blue, alpha);
+}
+ h3 + p{
+     background-color: royalblue;
+     color: white;
+ }
+ 
+ p[class]{
+        background: grey;    
+ }
+
+ p[id]{
+     background: hotpink;
+ }

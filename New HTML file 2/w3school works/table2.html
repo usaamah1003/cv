@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    table{
+        width: 100%;
+    }
+    th, td{
+        border-bottom: 1px solid black;
+    }
+    tr  :nth-child(even){
+        background-color: aquamarine;
+    }
+    th :nth-child(even), td :nth-child(even){
+        background-color: blueviolet;
+    }
+</style>
+<body>
+    <!--HTML TABLE COL SPAN
+    IT MEAN TABLE CELL THAT SPANS OOVE5R MULTIPLE ROLLS OR COLUMS-->
+    <TAble>
+        <colgroup>
+            <col span="3" style=" background-color:azure">
+        </colgroup>
+        <tr>
+            <th rowspan="4">Name</th>
+            <td>theo</td>
+            <td>sam</td>
+            <td>stlyes</td>
+            <td>adam</td>
+        </tr>
+        <tr>
+            <th rowspan="4">Age</th>
+            <td>12</td>
+            <td>13</td>
+            <td>114</td>
+            <td>365</td>
+        </tr>
+        <th rowspan="4">Hobby</th>
+        <td>running</td>
+        <td>sleeping</td>
+        <td>dancing</td>
+        <td>eatting</td>
+    </TAble>    
+</body>
+</html>

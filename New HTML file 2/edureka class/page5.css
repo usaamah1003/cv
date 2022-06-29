@@ -1,0 +1,37 @@
+a:hover{
+    background: purple ;
+    color: black;
+}
+body{
+    background: rgba(0, 234, 255, 0.65) ;
+}
+#wrapper{
+ margin: 0 auto ;
+ background-color: whitesmoke;
+ width: 800px; 
+ height: 100px;  
+}
+header{
+    padding: 0px 0px 10px 10px;
+}
+
+#horznav{
+    display: flex;
+    background-color:rgb(137, 225, 65);  
+    color: rgb(24, 23, 21);
+}
+#para-2{
+    letter-spacing: 10px;
+    word-spacing: 10px;
+}
+footer{
+    clear: both;
+    background: rgba(76, 86, 168, 0.849);
+}
+ol{
+    list-style-type: lower-alpha;
+    list-style-position:inherit;
+}
+#para-1::after{
+    content: "this not impotant it is just to practice my cs skills an d this should show agter the first paragraph";
+}
